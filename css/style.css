@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lato:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    background: #2874f0;
+ 
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;;
+
+}
+nav{
+    display: flex;
+    width: 125px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    
+}
+nav ul li a:hover{
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    
+}
+.search{
+   
+    /* width: 300px; */
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+.search input{
+    width: 390px;
+    height: 25px; 
+    border-radius: 4px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+footer{
+    height: 12vh;
+    background: #2874f0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
