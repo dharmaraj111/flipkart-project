@@ -1,0 +1,28 @@
+@media screen and (max-width:1000px){
+    body{
+        background-color: red;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        width: 100vw;
+    }
+    nav ul{
+        justify-content: center;
+        width: 100vw;height: 26px;
+    }
+    .search{
+        justify-content: center;
+        width: 100vw;
+        margin: 6px 0;
+    }
+    .carditems img{
+        width: 19vw;
+        height: 10vh;
+        overflow: scroll;
+      
+    }
+    
+}
