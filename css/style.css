@@ -1,64 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lato:wght@300&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
-    
+
+header {
+
     background: #2874f0;
- 
+
 }
-nav ul{
+
+nav ul {
     height: 58px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    padding: 0 23px;;
+    padding: 0 23px;
+    ;
 
 }
-nav{
+
+nav {
     display: flex;
     width: 125px;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     width: 88px;
     padding: 0 25px;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    
+
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: rgb(253, 253, 253);
     font-weight: bold;
-    
+
 }
-.search{
-   
+
+.search {
+
     /* width: 300px; */
     display: flex;
     align-items: center;
-    margin: 0 100px;
+    margin: 0 56px;
 }
-.search input{
-    width: 390px;
-    height: 25px; 
+
+.search input {
+    width: 500px;
+    height: 25px;
     border-radius: 4px;
+    padding: 0 12px;
 }
-.container{
+button{
+    height: 28px;
+    border-radius: 4px;
+    margin: 0 5px;
+    background-color: #2874f0;
+    color: white;
+}
+
+button:hover {
+    height: 25px;
+    color: rgb(255, 38, 0);
+    cursor: pointer;
+}
+
+.container {
     min-height: calc(100vh - 58px - 12vh);
 }
-footer{
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto; 
+}
+.card{
+    /* height: 90px; */
+    max-width: 91vw;
+    margin: auto;
+    
+}
+.card h2{
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+} 
+footer {
     height: 12vh;
     background: #2874f0;
     color: white;
